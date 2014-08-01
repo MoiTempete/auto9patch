@@ -7,12 +7,12 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Arrays;
-
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 
 
 public class Auto9patch {
+
 	public static void main (String arg[]){
 		if(arg.length < 1){
 			System.err.println("No Image Parameter");
